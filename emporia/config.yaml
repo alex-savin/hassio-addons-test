@@ -13,9 +13,7 @@ arch:
   - armv7
   - aarch64
 auth_api: false
-discovery:
-  - emporia
-image: docker.savin.nyc/addon-emporia
+image: smarthouseint/addon-emporia
 map:
   - config:rw
   - share
