@@ -4,28 +4,6 @@
 
 [Emporia Vue](https://www.emporiaenergy.com/) addon is an integration
 
-### Option: `log_level`
-
-The `log_level` option controls the level of log output by the addon and can
-be changed to be more or less verbose, which might be useful when you are
-dealing with an unknown issue. Possible values are:
-
-- `trace`: Show every detail, like all called internal functions.
-- `debug`: Shows detailed debug information.
-- `info`: Normal (usually) interesting events.
-- `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
-
-Please note that each level automatically includes log messages from a
-more severe level, e.g., `debug` also shows `info` messages. By default,
-the `log_level` is set to `info`, which is the recommended setting unless
-you are troubleshooting.
-
-
-**Note**: _We STRONGLY suggest picking a stronger/safer password instead of
-using this option! USE AT YOUR OWN RISK!_
-
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
@@ -67,7 +45,7 @@ Thank you for being involved! :heart_eyes:
 
 ## Authors & contributors
 
-The original setup of this repository is by [Alex Savin][alex-savin].
+The original setup of this repository is by [Alexander Savin][alex-savin].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].

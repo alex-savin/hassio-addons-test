@@ -5,7 +5,8 @@ name: Emporia Vue
 description: Emporia Vue devices integration
 url: https://github.com/alex-savin/hassio-addons-test/tree/master/emporia
 # codenotary: notary@home-assistant.io
-#image: ghcr.io/alex-savin/addon-emporia
+# image: ghcr.io/alex-savin/addon-emporia
+image: smarthouseint/addon-emporia
 arch:
   - amd64
   - i386
@@ -13,7 +14,6 @@ arch:
   - armv7
   - aarch64
 auth_api: false
-image: smarthouseint/addon-emporia
 map:
   - config:rw
   - share
@@ -43,7 +43,7 @@ options:
       - day
       - month
   timezone: America/New_York
-  logLevel: debug
+  loglevel: debug
   shareDeidentifiedData: true
 schema:
   mqtt:
@@ -69,7 +69,7 @@ schema:
     scope_of_interest:
       - str
   timezone: str
-  logLevel: match(^(trace|debug|info|notice|warning|error|fatal)$)?
+  loglevel: match(^(trace|debug|info|notice|warning|error|fatal)$)?
   shareDeidentifiedData: bool
 services:
   - mqtt:want

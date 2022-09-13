@@ -508,7 +508,7 @@ You could also [open an issue here][issue] GitHub.
 
 ## Authors & contributors
 
-The original setup of this repository is by [Franck Nijhof][frenck].
+The original setup of this repository is by [Alexander Savin][alex-savin].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -517,7 +517,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2022 Franck Nijhof
+Copyright (c) 2018-2022 Alexander Savin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -550,5 +550,3 @@ SOFTWARE.
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-wireguard/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
-[wireguard-install]: https://www.wireguard.com/install/
-[wireguard]: https://www.wireguard.com
